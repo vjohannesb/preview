@@ -159,7 +159,7 @@
 }
 
 #fixed-menu {
-  background-image: url("/images/ep_naturalblack.png");
+  background-image: url("/preview/images/ep_naturalblack.png");
   background-repeat: repeat;
   display: none;
   padding-bottom: 1rem;
@@ -477,7 +477,7 @@ body {
 }
 
 .parallax.showcase {
-  background-image: url("/images/parallax.jpg");
+  background-image: url("/preview/images/parallax.jpg");
   height: 400px;
 }
 
