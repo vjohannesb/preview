@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ashford Stone Design - Landskapsarkitekt, stenläggare och trädgårdsmästare">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <title>Ashford Stone Design Örebro</title>
+</head>
+
+<body>
+    <!-- TODO: Byt från onclick till addeventlistener -->
+    <header id="lang-switch">
+        <a href="../" class="p-1 text-black-50">sv</a>
+        <span class="p-1 text-black-50">|</span>
+        <a href="#" class="p-1 text-black-50">en</a>
+    </header>
+
+    <!-- Header / nav menu -->
+    <header id="nav-header">
+        <div class="container-md">
+            <div class="row align-items-center justify-content-between">
+                <div id="logotype" class="col-3">
+                    <img id="img-logo" src="../images/ashfordstonedesign_logo.png" alt="Ashford Stone Design Logo"
+                        loading="eager">
+                </div>
+
+                <div id="main-nav" class="col-8">
+                    <nav class="nav">
+                        <a href="#services" class="services-link">Services</a>
+                        <a href="#services" class="services-link">Gallery</a>
+                        <a <a href="#about-us" class="about-us-link">About us</a>
+
+                        <i class="hamburger fas fa-bars" aria-roledescription="Dropdown menu"></i>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- Dropdown menu -->
+            <div id="dropdown-nav" class="row">
+                <nav class="nav">
+                    <a href="#services" class="services-link">Services</a>
+                    <a href="#services" class="services-link">Gallery</a>
+                    <a <a href="#about-us" class="about-us-link">About us</a>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Fixed menu -->
+    <header id="fixed-menu" class="unsticky-menu">
+        <nav class="nav">
+            <a href="#" class="home-link">Home</a>
+            <a href="#services" class="services-link">Services</a>
+            <a href="#services" class="services-link">Gallery</a>
+            <a <a href="#about-us" class="about-us-link">About us</a>
+        </nav>
+    </header>
+
+    <!-- About us -->
+    <main>
+        <section id="presentation">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <h1>Ashford Stone Design</h1>
+
+                        <p class="fs-5">
+                            Your garden should be a relaxing and beautiful place. We want to help make it that way.
+                            Combining quality material with qualified installers, we guarantee our customers and
+                            employees a feeling of satisfaction.
+
+                        </p>
+                        <p class="fw-bold fs-5">Our dream is to make your dreams into reality.</p>
+
+                        <div id="contact" class="padder">
+                            <h4>Contact</h4>
+                        </div>
+                        <div class="row">
+                            <p class="col-12 col-sm-6">
+                                <a id="contact-us" class="btn btn-outline-success w-100">Contact us</a>
+                            </p>
+                            <p class="col-12 col-sm-6">
+                                <a href="#gallery" class="btn btn-outline-secondary w-100">Gallery</a>
+                            </p>
+                        </div>
+
+                        <div id="contact-info" class="row">
+                            <p class="col-12 col-sm-6">
+                                <a class="btn btn-primary py-2 w-100" href="mailto:info@ashfordstonedesign.se">
+                                    <i class="fad fa-paper-plane pe-2 pt-1"></i>Email us
+                                </a>
+                            </p>
+                            <p class="col-12 col-sm-6">
+                                <a class="btn btn-primary py-2 w-100" href="tel:0735033434">
+                                    <i class="fas fa-mobile-alt pe-2 pt-1"></i>Call us
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="parallax-section">
+            <h1 class="visually-hidden">Ashford Stone Design</h1>
+            <div class="parallax showcase">
+                <div class="cutoff-light"></div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services">
+            <div class="container">
+                <div id="services-title" class="title">
+                    <h1>Our services</h1>
+                    <hr>
+                </div>
+
+                <div id="service-boxes" class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 gx-5 gy-3">
+                    <div class="col text-center">
+                        <div class=" p-3 box">
+                            <i class="fad fa-dungeon"></i>
+                            <h2>Paving</h2>
+                        </div>
+                    </div>
+
+                    <div class="col text-center">
+                        <div class="p-3 box">
+                            <i class="fad fa-building"></i>
+                            <h2>Pavement</h2>
+                        </div>
+                    </div>
+
+                    <div class="col text-center">
+                        <div class="p-3 box">
+                            <i class="fas fa-igloo"></i>
+                            <h2>Tiling</h2>
+                        </div>
+                    </div>
+
+                    <div class="col text-center">
+                        <div class="p-3 box">
+                            <i class="fas fa-leaf"></i>
+                            <h2>Garden design</h2>
+                        </div>
+                    </div>
+
+
+                    <div class="col text-center">
+                        <div class="p-3 box">
+                            <i class="fas fa-chimney"></i>
+                            <h2>Walls</h2>
+                        </div>
+                    </div>
+
+                    <div class="col text-center">
+                        <div class="p-3 box">
+                            <i class="fas fa-chevron-right fw-"></i>
+                            <h2>Stairways</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <div id="gallery" class="padder">
+            <h4>Kontakt</h4>
+        </div>
+        <section id="gallery-section">
+            <div class="container">
+                <div id="gallery-title" class="title">
+                    <h1>Previous jobs</h1>
+                    <hr>
+                </div>
+
+                <div class="my-lightbox row row-cols-lg-4 row-cols-sm-2 row-cols-1 gx-2" name="gallery">
+
+                    <div class="col">
+                        <a href="../images/work/3DCAA06E.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/3DCAA06E_blurred.jpeg"
+                                data-src="../images/work/cmp/3DCAA06E_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+
+                        <a href="../images/work/624F35EB.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/624F35EB_blurred.jpeg"
+                                data-src="../images/work/cmp/624F35EB_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+
+                        <a href="../images/work/81F3AE20.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/81F3AE20_blurred.jpeg"
+                                data-src="../images/work/cmp/81F3AE20_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/F4C7D89D.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/F4C7D89D_blurred.jpeg"
+                                data-src="../images/work/cmp/F4C7D89D_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0024.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0024_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0024_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0028.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0028_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0028_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0071.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0071_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0071_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0138.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0138_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0138_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0141.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0141_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0141_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0162.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0162_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0162_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0217.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0217_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0217_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0230.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0230_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0230_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0244.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0244_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0244_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0302.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0302_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0302_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0305.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0305_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0305_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_4414.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_4414_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_4414_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+                    </div>
+
+
+
+                    <div class="col">
+                        <a href="../images/work/IMG_0339.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0339_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0339_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0407.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0407_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0407_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0534.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0534_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0534_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0569.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0569_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0569_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0581.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0581_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0581_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0654.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0654_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0654_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0688.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0688_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0688_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0694.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0694_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0694_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0695.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0695_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0695_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0708.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0708_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0708_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0710.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0710_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0710_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0862.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0862_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0862_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_0867.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_0867_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_0867_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_1650.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_1650_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_1650_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_1721.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_1721_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_1721_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                    </div>
+
+                    <div class="col">
+                        <a href="../images/work/IMG_1722.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_1722_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_1722_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_1732.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_1732_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_1732_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_1733.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_1733_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_1733_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_2251.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_2251_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_2251_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_2290.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_2290_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_2290_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_2850.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_2850_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_2850_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_2987.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_2987_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_2987_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_3036.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_3036_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_3036_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_3895.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_3895_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_3895_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_3898.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_3898_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_3898_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_4136.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_4136_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_4136_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_4397.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_4397_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_4397_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_4398.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_4398_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_4398_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                    </div>
+
+                    <div class="col">
+                        <a href="../images/work/IMG_4432.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_4432_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_4432_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_4474.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_4474_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_4474_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_4480.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_4480_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_4480_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_4481.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_4481_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_4481_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_4531.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_4531_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_4531_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_4536.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_4536_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_4536_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_4562.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_4562_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_4562_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_4571.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_4571_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_4571_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_4574.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_4574_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_4574_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_4609.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_4609_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_4609_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_4783.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_4783_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_4783_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+
+                        <a href="../images/work/IMG_4825.jpeg" data-lightbox="gallery">
+                            <img class="lazy-img lazy-loading" src="../images/work/cmp/IMG_4825_blurred.jpeg"
+                                data-src="../images/work/cmp/IMG_4825_cmp.jpeg" alt="" loading="lazy">
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+        <div id="about-us" class="padder">
+            <h4>Kontakt</h4>
+        </div>
+        <section id="about-us-section">
+            <div class="container">
+                <div id="about-us-title" class="title">
+                    <h1>Om oss</h1>
+                    <hr>
+                </div>
+                <div class="row">
+                    <div class="about-text row mt-4">
+                        <div class="col-6 info">
+                            <h5 class="d-inline">Ashford Stone Design</h5>
+                            <p class="fs-5 d-inline">är ett företag med fokus på att förbättra din fastighets- och
+                                utomhusmiljö. Oavsett om du planerar att utöka din trädgård eller utomhusmiljö för mer
+                                användbart utrymme, mindre underhåll, en trevlig uppfart eller bara för att ha en plats
+                                att koppla av på behandlar vi varje projekt som ett konstverk.
+                            </p>
+                            <p></p>
+                            <p class="fs-5">
+                                Vi erbjuder våra tjänster till såväl <span class="fw-bold">privatpersoner</span> som
+                                <span class="fw-bold">företag</span>, <span class="fw-bold">kommuner</span>
+                                och <span class="fw-bold">fastighetsägare.</span>
+                            </p>
+                            <h5 class="d-inline">Medan Ashford Stone Design</h5>
+                            <p class="fs-5 d-inline">
+                                är ett nybildat företag i Sverige har vi över 20 års erfarenhet
+                                av att arbeta med sten- och trädgårsdesign, och ser fram emot ännu ett fantastiskt år.
+                            </p>
+                            <p class="fs-4 mt-2">Välkommen att kontakta oss idag för en personlig offert!</p>
+                        </div>
+                        <div class="col-6 business-info">
+                            <h2>Ashford Stone Design</h2>
+                            <address>
+                                Barry & Hannah Ashford <br>
+                                Yxhultsvägen 66 <br>
+                                692 72 Kumla <br>
+                            </address>
+                            <div class="contact-info">
+                                <span>Phone: </span>
+                                <a href="tel:0735033434">0735-03 34 34</a> <br>
+                                <span>E-mail: </span>
+                                <a href="mailto:info@ashfordstonedesign.se">info@ashfordstonedesign.se</a>
+                            </div>
+                            <p class="mt-3">Registered for F-skatt</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row text-center align-items-center justify-content-around">
+                <div class="col-6">
+                    <address>
+                        Ashford Stone Design <br>
+                        Yxhultsvägen 66, 692 72 Kumla <br>
+                    </address>
+                </div>
+                <div class="col-6">
+                    <p>
+                        <a href="tel:0735033434">0735-03 34 34</a> <br>
+                        <a href="mailto:info@ashfordstonedesign.se">info@ashfordstonedesign.se</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <span class="col-12 p-0 m-0 text-center">Registered for F-skatt</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Credit -->
+    <footer id="credit">
+        <span>&copy; <a href="https://www.jbergendahl.se/">johannes bergendahl</a></span>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/043e51ac62.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/lightbox.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+</body>
+
+</html>
