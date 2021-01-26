@@ -273,6 +273,7 @@
 
 #about-us-section .container-md .about-text .info {
   margin-bottom: 3rem;
+  text-align: start !important;
 }
 
 @media (min-width: 992px) {
