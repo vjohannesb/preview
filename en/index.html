@@ -25,7 +25,8 @@
     {
       "@context" : "http://schema.org",
       "@type" : "LocalBusiness",    
-      "@id": "https://ashford.se/#website",    
+      "@id": "https://ashford.se/#website", 
+      "image": "https://www.ashford.se/src/images/ashfordstonedesign_logo.png",  
       "description": "Ashford Stone Design | Landskapsdesigner, stenläggare & trädgårdsskötare. Natursten, skiffer, kullersten, betongsten, plattläggning, murar, trappor och trädgårdsdesign",
       "name" : "Ashford Stone Design",
       "telephone" : "0735-03 34 34",
@@ -123,7 +124,7 @@
 
                 <div id="main-nav" class="col-8">
                     <nav class="nav">
-                        <a href="/" class="home-link">Home</a>
+                        <a href="#" class="home-link">Home</a>
                         <a href="#services" class="services-link">Services</a>
                         <a href="#gallery" class="gallery-link">Gallery</a>
                         <a href="#about-us" class="about-us-link">About us</a>
@@ -136,7 +137,7 @@
             <!-- Dropdown menu -->
             <div id="dropdown-nav" class="row">
                 <nav class="nav">
-                    <a href="/" class="home-link">Home</a>
+                    <a href="#" class="home-link">Home</a>
                     <a href="#services" class="services-link">Services</a>
                     <a href="#gallery" class="gallery-link">Gallery</a>
                     <a href="#about-us" class="about-us-link">About us</a>
@@ -155,9 +156,9 @@
                         <h1>ASHFORD STONE DESIGN</h1>
 
                         <p class="fs-5">
-                            Your garden should be a relaxing and beautiful place. We want to help make it that way.
-                            Combining quality material with qualified installers, we give a feeling of satisfaction for
-                            our employees and our customers.
+                            Our gardens are beautiful and relaxing places. We offer to help improve them with our
+                            customers. Combining quality material with qualified installers, we give a feeling of
+                            satisfaction for our employees and our customers.
                         </p>
                         <p class="fw-bold fs-5">Our dream is to make your dreams into reality.</p>
 
@@ -193,38 +194,39 @@
             <div class="container-md">
                 <h1 id="services-title" class="title">Our services</h1>
 
-                <div id="service-boxes" class="row row-cols-1 row-cols-sm-2 gx-2 gy-2 gx-md-3 gy-md-3 gy-lg-3">
-                    <div class="col text-center">
+                <div id="service-boxes" class="row gx-2 gy-2 gx-md-3 gy-md-3 gy-lg-3">
+                    <div class="col-12 col-sm-6 text-center">
                         <a href="../src/images/work/naturalriver/1.jpg" class="text-reset text-decoration-none"
-                            data-lightbox="naturalriver" data-title="Natural- & riverstone">
+                            data-lightbox="naturalriver" data-title="Natural stone">
                             <div class="p-3 box">
                                 <i class="fas fa-dungeon"></i>
-                                <h2>Natural- & riverstone</h2>
+                                <h2>Natural stone</h2>
                             </div>
                         </a>
                         <div class="visually-hidden d-none">
                             <a href="../src/images/work/naturalriver/2.jpg" data-lightbox="naturalriver"
-                                data-title="Natural- & riverstone"></a>
+                                data-title="Natural stone"></a>
                             <a href="../src/images/work/naturalriver/3.jpg" data-lightbox="naturalriver"
-                                data-title="Natural- & riverstone"></a>
+                                data-title="Natural stone"></a>
                             <a href="../src/images/work/naturalriver/4.jpg" data-lightbox="naturalriver"
-                                data-title="Natural- & riverstone"></a>
+                                data-title="Natural stone"></a>
                             <a href="../src/images/work/naturalriver/5.jpg" data-lightbox="naturalriver"
-                                data-title="Natural- & riverstone"></a>
+                                data-title="Natural stone"></a>
                             <a href="../src/images/work/naturalriver/6.jpg" data-lightbox="naturalriver"
-                                data-title="Natural- & riverstone"></a>
+                                data-title="Natural stone"></a>
                             <a href="../src/images/work/naturalriver/7.jpg" data-lightbox="naturalriver"
-                                data-title="Natural- & riverstone"></a>
+                                data-title="Natural stone"></a>
                             <a href="../src/images/work/naturalriver/8.jpg" data-lightbox="naturalriver"
-                                data-title="Natural- & riverstone"></a>
+                                data-title="Natural stone"></a>
                         </div>
                     </div>
 
-                    <div class="col text-center">
-                        <a href="../src/images/work/concrete/1.jpg" class="text-reset text-decoration-none"
+                    <div class="col-12 col-sm-6 text-center">
+                        <a href="/src/images/work/concrete/1.jpg" class="text-reset text-decoration-none"
                             data-lightbox="concrete" data-title="Concrete stone">
                             <div class="p-3 box">
-                                <i class="fas fa-building"></i>
+                                <img class="brick" src="/src/images/brick.svg"
+                                    onerror="this.onerror=null; this.src='/src/images/brick.png'" alt="Brick icon">
                                 <h2>Concrete stone</h2>
                             </div>
                         </a>
@@ -246,8 +248,8 @@
                         </div>
                     </div>
 
-                    <div class="col text-center">
-                        <a href="../src/images/work/stairswalls/1.jpg" class="text-reset text-decoration-none"
+                    <div class="col-12 col-sm-6 text-center">
+                        <a href="/src/images/work/stairswalls/1.jpg" class="text-reset text-decoration-none"
                             data-lightbox="stairswalls" data-title="Walls & stairs">
                             <div class="p-3 box">
                                 <i class="fas fa-chimney"></i>
@@ -272,8 +274,8 @@
                         </div>
                     </div>
 
-                    <div class="col text-center">
-                        <a href="../src/images/work/garden/1.jpg" class="text-reset text-decoration-none"
+                    <div class="col-12 col-sm-6 text-center">
+                        <a href="/src/images/work/garden/1.jpg" class="text-reset text-decoration-none"
                             data-lightbox="garden" data-title="Garden design">
                             <div class="p-3 box">
                                 <i class="fas fa-leaf"></i>
@@ -287,6 +289,64 @@
                                 data-title="Garden design"></a>
                             <a href="../src/images/work/garden/4.jpg" data-lightbox="garden"
                                 data-title="Garden design"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 text-center">
+                        <a href="../src/images/work/projects/orebromarkosten/01.jpg"
+                            class="text-reset text-decoration-none" data-lightbox="subcontracting"
+                            data-title="Subcontracting">
+                            <div class="p-3 box">
+                                <i class="fas fa-user-hard-hat"></i>
+                                <h2>Subcontracting</h2>
+                            </div>
+                        </a>
+                        <div class="visually-hidden d-none">
+                            <a href="../src/images/work/projects/orebromarkosten/02.jpg" data-lightbox="subcontracting"
+                                data-title="Various contracts with Mark och Sten i Örebro AB">
+                            </a>
+                            <a href="../src/images/work/projects/orebromarkosten/03.jpg" data-lightbox="subcontracting"
+                                data-title="Various contracts with Mark och Sten i Örebro AB">
+                            </a>
+                            <a href="../src/images/work/projects/orebromarkosten/04.jpg" data-lightbox="subcontracting"
+                                data-title="Various contracts with Mark och Sten i Örebro AB">
+                            </a>
+                            <a href="../src/images/work/projects/orebromarkosten/05.jpg" data-lightbox="subcontracting"
+                                data-title="Various contracts with Mark och Sten i Örebro AB">
+                            </a>
+                            <a href="../src/images/work/projects/orebromarkosten/06.jpg" data-lightbox="subcontracting"
+                                data-title="Various contracts with Mark och Sten i Örebro AB">
+                            </a>
+                            <a href="../src/images/work/projects/orebromarkosten/07.jpg" data-lightbox="subcontracting"
+                                data-title="Various contracts with Mark och Sten i Örebro AB">
+                            </a>
+                            <a href="../src/images/work/projects/orebromarkosten/08.jpg" data-lightbox="subcontracting"
+                                data-title="Various contracts with Mark och Sten i Örebro AB">
+                            </a>
+                            <a href="../src/images/work/projects/orebromarkosten/09.jpg" data-lightbox="subcontracting"
+                                data-title="Various contracts with Mark och Sten i Örebro AB">
+                            </a>
+                            <a href="../src/images/work/projects/orebromarkosten/10.jpg" data-lightbox="subcontracting"
+                                data-title="Various contracts with Mark och Sten i Örebro AB">
+                            </a>
+                            <a href="../src/images/work/projects/orebromarkosten/11.jpg" data-lightbox="subcontracting"
+                                data-title="Various contracts with Mark och Sten i Örebro AB">
+                            </a>
+                            <a href="../src/images/work/projects/orebrobergategel/1.jpg" data-lightbox="subcontracting"
+                                data-title="Patio in herringbone clay with Mark och Sten i Örebro AB and Berga">
+                            </a>
+                            <a href="../src/images/work/projects/orebrobergategel/2.jpg" data-lightbox="subcontracting"
+                                data-title="Patio in herringbone clay with Mark och Sten i Örebro AB and Berga">
+                            </a>
+                            <a href="../src/images/work/projects/orebrobergategel/3.jpg" data-lightbox="subcontracting"
+                                data-title="Patio in herringbone clay with Mark och Sten i Örebro AB and Berga">
+                            </a>
+                            <a href="../src/images/work/projects/orebrobergategel/4.jpg" data-lightbox="subcontracting"
+                                data-title="Patio in herringbone clay with Mark och Sten i Örebro AB and Berga">
+                            </a>
+                            <a href="../src/images/work/projects/orebrobergategel/5.jpg" data-lightbox="subcontracting"
+                                data-title="Patio in herringbone clay with Mark och Sten i Örebro AB and Berga">
+                            </a>
                         </div>
                     </div>
 
@@ -320,7 +380,7 @@
                     </div>
 
                     <div class="col-5 d-none d-xl-inline">
-                        <img src="/preview/src/images/parallaxv2.jpg" alt="Mur i natursten" loading="lazy"
+                        <img src="/src/images/parallaxv2.jpg" alt="Mur i natursten" loading="lazy"
                             style="max-width: 100%; border-radius: 5px;">
                     </div>
                 </div>
@@ -590,24 +650,24 @@
                                     <i class="fas fa-plus"></i>
                                 </div>
                                 <img src="../src/images/work/projects/orebrobergategel/front__cmp.jpg"
-                                    alt="Herringbone brick patio" loading="lazy">
-                                <h2 class="fs-3">Herringbone brick patio</h2>
+                                    alt="Herringbone clay patio" loading="lazy">
+                                <h2 class="fs-3">Herringbone clay patio</h2>
                             </a>
                             <div class="visually-hidden d-none">
                                 <a href="../src/images/work/projects/orebrobergategel/1.jpg"
-                                    data-lightbox="orebrobergategel" data-title="Herringbone brick patio">
+                                    data-lightbox="orebrobergategel" data-title="Herringbone clay patio">
                                 </a>
                                 <a href="../src/images/work/projects/orebrobergategel/2.jpg"
-                                    data-lightbox="orebrobergategel" data-title="Herringbone brick patio">
+                                    data-lightbox="orebrobergategel" data-title="Herringbone clay patio">
                                 </a>
                                 <a href="../src/images/work/projects/orebrobergategel/3.jpg"
-                                    data-lightbox="orebrobergategel" data-title="Herringbone brick patio">
+                                    data-lightbox="orebrobergategel" data-title="Herringbone clay patio">
                                 </a>
                                 <a href="../src/images/work/projects/orebrobergategel/4.jpg"
-                                    data-lightbox="orebrobergategel" data-title="Herringbone brick patio">
+                                    data-lightbox="orebrobergategel" data-title="Herringbone clay patio">
                                 </a>
                                 <a href="../src/images/work/projects/orebrobergategel/5.jpg"
-                                    data-lightbox="orebrobergategel" data-title="Herringbone brick patio">
+                                    data-lightbox="orebrobergategel" data-title="Herringbone clay patio">
                                 </a>
                             </div>
                         </div>
@@ -840,14 +900,19 @@
         </section>
 
         <!-- Socials -->
-        <section id="socials" class="text-center m-5">
-            <h2>
-                <a href="https://instagram.com/ashfordstonedesign" target="_blank"
-                    class="text-reset text-uppercase text-black-50 text-decoration-none" rel="noreferrer">
+        <section id="socials" class="text-center m-5 row">
+            <div class="col ig">
+                <a href="https://instagram.com/ashfordstonedesign" target="_blank" rel="noreferrer">
                     <i class="fab fa-instagram"></i>
-                    ashfordstonedesign
+                    <h2>@ashfordstonedesign</h2>
                 </a>
-            </h2>
+            </div>
+
+            <div class="col id06">
+                <a href="https://www.id06.se/" target="_blank" rel="noreferrer">
+                    <img src="/src/images/id06-min.png" alt="ID06">
+                </a>
+            </div>
         </section>
     </main>
 
